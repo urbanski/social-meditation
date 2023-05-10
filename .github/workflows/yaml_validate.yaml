@@ -23,5 +23,5 @@ jobs:
         run: |
           cd practices
           for file in $(find . -name '*.yaml'); do
-            python ../util/validate_yaml.py $file ../schema.yaml
+            python ../util/validate_schema.py $file ../schema.yaml
           done
