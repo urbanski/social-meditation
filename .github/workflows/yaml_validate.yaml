@@ -1,5 +1,4 @@
-name: YAML Lint
-
+name: Validate YAML files
 on:
   push:
     branches:
@@ -9,19 +8,20 @@ on:
       - main
 
 jobs:
-  lint:
+  validate_yaml:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
-
+          python-version: "3.9"
       - name: Install PyYAML
         run: pip install pyyaml
-
       - name: Validate YAML files
-        run: python util/lint_yaml.py
+        run: |
+          cd practices
+          for file in $(find . -name '*.yaml'); do
+            python ../util/validate_yaml.py $file ../schema.yaml
+          done
