@@ -1,0 +1,14 @@
+id: six-sense-noting
+practice:
+  title: Six Sense Noting
+  creator: Kenneth Folk
+  format: {note}
+  options:
+    choice: ["seeing", "hearing", "tasting", "smelling", "touching", "thinking"]
+  compression: terse
+  order: ["sequential", "spontaneous"]
+  size:
+    minimum: 2
+references: 
+  - type: url
+    value: https://www.socialmeditation.guide/basic/basic-noting/six-sense-noting
