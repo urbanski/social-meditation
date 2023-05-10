@@ -1,0 +1,14 @@
+id: noting-mind-states
+practice:
+  title: Noting Mind States
+  creator: Kenneth Folk
+  format: {note}
+  options:
+    category: Mind States
+  compression: terse
+  order: ["sequential", "spontaneous"]
+  size:
+    minimum: 2
+references: 
+  - type: url
+    value: https://www.socialmeditation.guide/basic/basic-noting/noting-mind-states

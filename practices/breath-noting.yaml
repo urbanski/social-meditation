@@ -1,0 +1,15 @@
+id: breath-noting
+practice:
+  title: Breath Noting
+  creator: Vince Fakhoury Horn
+  format: {note}
+  options:
+    category: synced with breath
+    looping: ["In", "Out"]
+  compression: terse
+  order: ["sequential"]
+  size:
+    minimum: 3
+references:
+  - type: url
+    value: https://www.socialmeditation.guide/basic/basic-noting/noting-mind-states
