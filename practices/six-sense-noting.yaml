@@ -2,7 +2,7 @@ id: six-sense-noting
 practice:
   title: Six Sense Noting
   creator: Kenneth Folk
-  format: {note}
+  frame: _
   options:
     choice: ["seeing", "hearing", "tasting", "smelling", "touching", "thinking"]
   compression: terse

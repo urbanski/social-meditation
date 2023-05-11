@@ -2,7 +2,7 @@ id: noting-mind-states
 practice:
   title: Noting Mind States
   creator: Kenneth Folk
-  format: {note}
+  frame: _
   options:
     category: Mind States
   compression: terse

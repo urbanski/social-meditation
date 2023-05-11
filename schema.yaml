@@ -10,16 +10,18 @@ properties:
         type: string
       creator:
         type: string
-      format:
-        type: object
-        additionalProperties:
-          type: string
+      frame:
+        type: string
       options:
         type: object
         properties:
           category:
             type: string
           looping:
+            type: array
+            items:
+              type: string
+          choice:
             type: array
             items:
               type: string
@@ -39,7 +41,7 @@ properties:
     required:
       - title
       - creator
-      - format
+      - frame
       - options
   references:
     type: array

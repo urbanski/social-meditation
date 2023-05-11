@@ -2,7 +2,7 @@ id: breath-noting
 practice:
   title: Breath Noting
   creator: Vince Fakhoury Horn
-  format: {note}
+  frame: _
   options:
     category: synced with breath
     looping: ["In", "Out"]
