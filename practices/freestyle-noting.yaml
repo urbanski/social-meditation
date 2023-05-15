@@ -1,0 +1,17 @@
+id: freestyle-noting
+instructions:
+  - language: en-us
+    text: Using a word or two, call out (i.e. note) your present-moment experience.
+practice:
+  title: Freestyle Noting
+  creator: Kenneth Folk
+  frame: _
+  options:
+    category: \*
+  compression: terse
+  order: ["sequential", "spontaneous"]
+  size:
+    minimum: 2
+references:
+  - type: url
+    value: https://www.socialmeditation.guide/basic/basic-noting/freestyle-noting
